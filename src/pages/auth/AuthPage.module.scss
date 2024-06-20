@@ -1,0 +1,54 @@
+.main {
+  min-height: calc(100svh - 44px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section {
+  margin-bottom: 20px !important;
+}
+
+.logo {
+  margin: 0 auto 36px;
+}
+
+.inner {
+  border-radius: 6px;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form {
+  margin-bottom: 25px;
+  width: 100%;
+
+  &__flex {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.toTerms {
+  font-size: 14px;
+  text-align: center;
+  &__link {
+    display: inline-flex !important;
+    font-size: inherit !important;
+  }
+}
+
+.submit {
+  padding: 16px;
+}
+
+.have {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-family: var(--poppins);
+  font-size: 14px;
+}

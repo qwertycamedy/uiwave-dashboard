@@ -1,0 +1,11 @@
+.name {
+  max-width: 150px;
+}
+
+.metricsImpact {
+  white-space: wrap !important;
+  line-height: 160% !important;
+  &__item {
+    margin-right: 7px;
+  }
+}

@@ -1,0 +1,52 @@
+.stroke {
+  cursor: pointer;
+  background: transparent;
+  transition: background .2s linear;
+
+  @media(any-hover: hover) {
+    &:hover {
+      background: var(--table-stroke-h);
+    }
+  }
+}
+
+.name, .modified {
+  max-width: 150px;
+}
+
+.descr {
+  max-width: 300px;
+}
+
+.startDate {
+    display: flex;
+    gap: 12px !important;
+}
+
+.status_del {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.status {
+  text-transform: capitalize !important;
+}
+
+.del {
+    color: var(--red) !important;
+    padding: 0 !important;
+
+    transition: color .2s linear !important;
+
+    @media (any-hover: hover) {
+      &:hover {
+        color: var(--red-hover) !important;
+      }
+    }
+
+    &:active {
+      color: var(--red-active) !important;
+    }
+}

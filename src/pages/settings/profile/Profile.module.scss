@@ -1,0 +1,20 @@
+.block {
+    &__outer {
+        display: flex;
+        flex-direction: row !important;
+        gap: 70px !important;
+    }
+
+    &__value {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26.38px;
+        margin-bottom: 6px;
+    }
+
+    &__edit {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26.38px;
+    }
+}

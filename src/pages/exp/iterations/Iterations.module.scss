@@ -1,0 +1,15 @@
+.info {
+    margin-bottom: 16px;
+}
+
+.configure,
+.start {
+    padding: 15px 63px !important;
+}
+
+.start {
+    &__disabled {
+        background: #2A2A2A !important;
+        color: rgba(255, 255, 255, 0.4) !important;
+    }
+}

@@ -1,0 +1,28 @@
+.status {
+  padding: 3px 15px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 72px;
+
+  &__draft {
+    background: var(--yellow-02);
+    color: var(--yellow);
+  }
+
+  &__active {
+    background: var(--green-02);
+    color: var(--green);
+  }
+
+  &__inactive {
+    background: var(--red-02);
+    color: var(--red);
+  }
+}

@@ -1,0 +1,17 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.link {
+  &__ico {
+    color: var(--accent);
+  }
+}

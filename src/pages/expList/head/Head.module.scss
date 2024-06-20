@@ -1,0 +1,15 @@
+.head {
+    margin-bottom: 16px;
+}
+
+.btn {
+    padding: 15px 25px !important;
+    &__outer {
+        flex-wrap: wrap;
+    }
+}
+
+.search {
+    min-width: 347px;
+    height: 100%;
+}

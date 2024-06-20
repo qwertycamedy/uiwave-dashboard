@@ -1,0 +1,21 @@
+.status_del {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.del {
+    color: var(--red) !important;
+    padding: 0 !important;
+
+    @media (any-hover: hover) {
+      &:hover {
+        color: var(--red-hover) !important;
+      }
+    }
+
+    &:active {
+      background: var(--red-active) !important;
+    }
+}

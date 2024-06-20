@@ -1,0 +1,27 @@
+.name {
+    width: 250px !important;
+}
+
+.allocation {
+    width: 270px !important;
+}
+
+.total {
+    color: var(--iterations-total-c) !important;
+}
+
+.line {
+    border-radius: 6px;
+    background: var(--iterations-total-line-bg);
+    width: 100px;
+    height: 6px;
+    display: flex;
+    flex-shrink: 0;
+
+    &__progress {
+        border-radius: inherit;
+        background: var(--iterations-total-line-c);
+        height: inherit;
+        max-width: 100px;
+    }
+}

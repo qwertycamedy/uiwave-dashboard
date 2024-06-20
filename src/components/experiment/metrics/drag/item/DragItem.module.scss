@@ -1,0 +1,52 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: grab;
+
+  transition: background 0.2s linear;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background: var(--elem-bg);
+    }
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.drag {
+  color: var(--dull) !important;
+  cursor: grab !important; 
+  &:active {
+    cursor: grabbing !important;
+  }
+}
+
+.label {
+  cursor: grab !important; 
+  &:active {
+    cursor: grabbing !important;
+  }
+}
+
+.del {
+  color: var(--red);
+
+  transition: color 0.15s linear;
+
+  @media (any-hover: hover) {
+    &:hover {
+      color: var(--red-hover);
+    }
+  }
+
+  &:active {
+    color: var(--red-active);
+  }
+}

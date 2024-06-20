@@ -1,0 +1,34 @@
+.acc {
+    margin-bottom: 20px;
+    background: var(--elem-bg);
+    border-radius: 6px;
+}
+
+.info {
+    padding: 14px 19px 16px;
+}
+
+.name {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.email {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    color: var(--dull);
+}
+
+.verify {
+    font-size: 12px;    
+    font-weight: 500;
+}
+
+.member {
+    padding: 4px 19px;
+    color: var(--dull);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}

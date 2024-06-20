@@ -1,0 +1,51 @@
+.block__outer {
+    margin-bottom: 54px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 8px;
+  background: var(--block-bg);
+  padding: 16px 20px;
+  max-width: 653px;
+
+  &__btn {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.38px;
+  }
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26.38px;
+  }
+}
+
+.renewal {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  &__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--dull);
+    max-width: 342px;
+  }
+}
+
+.payment {
+    &__title {
+        margin-bottom: 14px;
+    }
+}

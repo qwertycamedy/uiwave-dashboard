@@ -1,0 +1,43 @@
+.field {
+  padding: 17px 15px 17px 28px;
+  border-radius: 10px;
+  border: 1px solid var(--btn-gbc);
+  box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.1) inset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  max-width: 408px;
+  margin-bottom: 14px;
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.38px;
+    color: var(--input-pl);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  &__btn {
+    color: var(--accent);
+    transition: color 0.2s linear;
+
+    @media (any-hover: hover) {
+      &:hover {
+        color: var(--accent-hover);
+      }
+    }
+
+    &:active {
+      color: var(--accent-active);
+    }
+  }
+}
+
+.btn {
+  padding: 15px 40px !important;
+}

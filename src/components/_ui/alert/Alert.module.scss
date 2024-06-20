@@ -1,0 +1,25 @@
+.alert {
+  position: absolute;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate(0, 100%);
+
+  transition: opacity 0.3s linear, visibility 0.3s linear, transform 0.3s linear;
+
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: rgba(19, 229, 90, 0.32);
+  color: #30BA70;
+
+  font-family: var(--poppins);
+  font-size: 14px;
+  font-weight: 500;
+
+  &__visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+}

@@ -1,0 +1,156 @@
+:root {
+  // base
+  --onest: 'Onest', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+  --content-width: 1200px;
+  --content-width-big: 1344px;
+  --content-width-small: 950px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-width-big: calc(
+    var(--content-width-big) + (var(--container-offset) * 2)
+  );
+  --container-width-small: calc(
+    var(--content-width-small) + (var(--container-offset) * 2)
+  );
+
+  --light: #fff;
+  --light-disable: rgba(#fff, 0.4);
+  --dark: #02041d;
+
+  --app-bg: #f9f9f9;
+  --app-color: ##1e2039;
+  --accent: #690df5;
+  --accent-hover: #5b09d6;
+  --accent-active: #4b07b1;
+  --accent-disable: #47444b;
+  --dull: #60649f;
+  --gray: rgba(0, 0, 0, 0.4);
+  --red: #fd4b5f;
+  --red-02: rgba(253, 75, 95, 0.2);
+  --red-hover: rgb(218, 64, 82);
+  --red-hover-02: rgba(218, 64, 82, 0.2);
+  --red-active: rgb(157, 45, 58);
+  --red-active-02: rgba(157, 45, 58, 0.2);
+  --yellow: rgba(255, 200, 94, 1);
+  --yellow-02: rgba(255, 200, 94, 0.2);
+  --green: rgba(48, 186, 112, 1);
+  --green-02: rgba(48, 186, 112, 0.2);
+
+  --block-bg: #ececec;
+  --block-bg-04: rgba(20, 22, 45, 0.4);
+  --block-bg-06: rgba(20, 22, 45, 0.6);
+  --elem-bg: #ececec;
+
+  --btn-gbc: #ececec;
+
+  --btn-del-c: #fff;
+  --btn-del-c-h: #fff;
+  --btn-del-c-a: #fff;
+  --btn-del-bg: #fd4b5f;
+  --btn-del-bg-h: rgb(209, 63, 80);
+  --btn-del-bg-a: rgb(172, 50, 64);
+
+  --btn-cancel-bg: #ececec;
+
+  --btn-disabled-bg: #e4e4e4;
+  --btn-disabled-c: rgba(0, 0, 0, 0.4);
+
+  --modal-bg: #fff;
+  --modal-close-c: #000;
+
+  --input-c: #02041d;
+  --input-pl: #555884;
+
+  --checkbox: #60649f;
+  --checkbox-active: #60649f;
+
+  --table-b-c: #00000015;
+  --table-sort-h: #3f437d;
+  --table-404-bg: #f9f9f9;
+  --table-body-bg: transparent;
+  --table-stroke-h: #ececec;
+
+  --metrics-block-bg: transparent;
+  --metrics-block-b-c: #00000015;
+
+  --block-scroll-c: #ececec;
+
+  --range-bg: #e4e4e4;
+
+  --iterations-total-c: #1e2039;
+  --iterations-total-line-c: #555884;
+  --iterations-total-line-bg: #c9c9c9;
+
+  --navbar-bg: transparent;
+  --navbar-b-c: rgba(0, 0, 0, 0.15);
+}
+
+html.dark {
+  --app-bg: #02041d;
+  --app-color: #fff;
+  --accent: #9e5eff;
+  --accent-hover: #8b3eff;
+  --accent-active: #6430b2;
+  --accent-disable: #9e5eff;
+  --dull: rgba(85, 88, 132, 1);
+  --gray: rgba(255, 255, 255, 0.4);
+  --red: #fd4b5f;
+  --red-02: rgba(253, 75, 95, 0.2);
+  --red-hover: rgb(218, 64, 82);
+  --red-hover-02: rgba(218, 64, 82, 0.2);
+  --red-active: rgb(157, 45, 58);
+  --red-active-02: rgba(157, 45, 58, 0.2);
+  --yellow: rgba(255, 200, 94, 1);
+  --yellow-02: rgba(255, 200, 94, 0.2);
+  --green: rgba(48, 186, 112, 1);
+  --green-02: rgba(48, 186, 112, 0.2);
+
+  --block-bg: rgba(20, 22, 45, 1);
+  --block-bg-04: rgba(20, 22, 45, 0.4);
+  --block-bg-06: rgba(20, 22, 45, 0.6);
+  --elem-bg: rgba(30, 32, 57, 1);
+
+  --btn-gbc: rgba(43, 46, 76, 1);
+
+  --btn-del-c: #fd4b5f;
+  --btn-del-bg: rgba(253, 75, 95, 0.2);
+  --btn-del-c-h: rgb(218, 64, 82);
+  --btn-del-bg-h: rgba(218, 64, 82, 0.2);
+  --btn-del-c-a: rgb(157, 45, 58);
+  --btn-del-bg-a: rgba(157, 45, 58, 0.2);
+
+  --btn-cancel-bg: rgba(29, 26, 58, 1);
+
+  --btn-disabled-bg: #2a2a2a;
+  --btn-disabled-c: #ffffff66;
+
+  --modal-bg: rgba(20, 22, 45, 1);
+  --modal-close-c: #fff;
+
+  --input-c: #fff;
+  --input-pl: rgba(43, 46, 76, 1);
+
+  --checkbox: rgba(255, 255, 255, 0.4);
+  --checkbox-active: #fff;
+
+  --table-b-c: transparent;
+  --table-sort-h: #fff;
+  --table-404-bg: #1e2039;
+  --table-body-bg: rgba(30, 32, 57, 1);
+  --table-stroke-h: rgba(20, 22, 45, 0.4);
+
+  --metrics-block-bg: rgba(20, 22, 45, 1);
+  --metrics-block-b-c: transparent;
+
+  --block-scroll-c: #1e2039;
+
+  --range-bg: #2c2f4f;
+
+  --iterations-total-c: #fff;
+  --iterations-total-line-c: #fff;
+  --iterations-total-line-bg: #1e2039;
+
+  --navbar-bg: #14162d;
+  --navbar-b-c: transparent;
+}
